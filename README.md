@@ -3,7 +3,7 @@ NAME : Deirojel Martin M. Garcia
 
 SECTION : 2ECE-A
 
-SUBMITTED / Last updated: September , 2024
+SUBMITTED / Last updated: September 18, 2024
 
 ***
 ## Intended Learning Outcomes
@@ -56,3 +56,25 @@ Mindy
 2. Create a visualization that shows how the different features contributes to average grade. Does
 chosen track in college, gender, or hometown contributes to a higher average score?
 
+Before we even code for plotting the visualizations, We first need to import the library that allows us to make these graphs
+``` python
+import matplotlib.pyplot as plt
+```
+
+Now we can plot for the different features.
+
+Lets start with the table for Track. It can be implemented with this code:
+``` python
+plt.figure(figsize=(7, 5))
+plt.bar(main['Track'], main['Average'])
+```
+Gender:
+``` python
+plt.figure(figsize=(5, 5))
+plt.bar(main['Gender'], main['Average'])
+```
+Hometown:
+``` python
+plt.figure(figsize=(7, 5))
+plt.bar(main['Hometown'], main['Average'])
+```
