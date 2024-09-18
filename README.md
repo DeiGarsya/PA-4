@@ -19,3 +19,13 @@ Using data wrangling and data visualization technique with
 storytelling, analyze the data and present different (i) data frames; and (ii) visuals using the dataset given.
 
 1. Create the following data frames based on the format provided:
+
+   a. Filename: Instru = [“Name”, “GEAS”, “Electronics >70”]; where track is constant as
+Instrumentation and hometown Luzon
+
+b. Filename: Mindy = [ “Name”, “Track”, “Electronics”, “Average >=55”]; where hometown is
+constant as Mindanao and gender Female
+
+2. Create a visualization that shows how the different features contributes to average grade. Does
+chosen track in college, gender, or hometown contributes to a higher average score?
+
